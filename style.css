@@ -1,0 +1,45 @@
+body {
+  display: block;
+  text-align: center;
+  background-color: black;
+  margin-top: 10rem;
+}
+.inputs {
+  display: block;
+  align-items: center;
+  margin: 2px;
+  padding: 15px;
+}
+
+.inputs > button {
+  margin: 5px;
+  background-color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 3px;
+  min-width: 10rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+#results {
+  color: white;
+}
+
+#reset {
+  margin: 5px;
+  background-color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 3px;
+  min-width: 10rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+#results {
+  font-family: Georgia, "Times New Roman", Times, serif, Courier, monospace;
+  font-style: normal;
+  text-transform: capitalize;
+  transition-delay: 10s;
+}
